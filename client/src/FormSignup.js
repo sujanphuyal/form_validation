@@ -9,7 +9,6 @@ const FormSignup = ({ submitForm }) => {
     validate
   );
 
-
   return (
     <div className='form-content'>
       <form onSubmit={handleSubmit} className='form' noValidate>
